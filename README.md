@@ -1,7 +1,8 @@
 
 # What is quizComponentGenerator?
 
-"quizComponentGenerator" is a function of Javascript.
+"quizComponentGenerator" is a function of Javascript(ES6).
+
 This function generates html tags like this,
 
 
@@ -9,7 +10,7 @@ This function generates html tags like this,
 <div class="question-container">
   <div class="question-desc">
   ...(input text)
-  </div><div class="output-container">
+  </div>
 
   <div class="output-container">
     <p class="output-title">OUTPUT</p>
@@ -20,7 +21,17 @@ This function generates html tags like this,
 </div>
 ```
 
+Using this, you can show the inputs & outputs of the many exercises you wrote in JS files efficiently on the browser.
 
+Here is a sample how the browser looks like.
+
+![sample](./assets/img/sample_01.png)
+
+
+
+
+# What this function looks like?
+The following is "quizComponentGenerator" itself.
 
 ```js
 
@@ -60,6 +71,8 @@ function quizComponentGenerator(inputText,outputText){
 ```
 
 
-![sample](./assets/img/sample_01.png)
-
 # How to use it?
+This function requires two arguments(parameters) which are inputText and outputText.
+```js
+function quizComponentGenerator(inputText,outputText){...}
+```

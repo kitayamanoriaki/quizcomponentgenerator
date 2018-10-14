@@ -21,7 +21,7 @@ This function generates html tags like this,
 </div>
 ```
 
-Using this, you can show the inputs & outputs of the many exercises you wrote in JS files efficiently on the browser.
+Using this, you can show the inputs & outputs of many exercises you wrote in JS files efficiently on the browser.
 
 Here is a sample how the browser looks like.
 
@@ -76,3 +76,6 @@ This function requires two arguments(parameters) which are inputText and outputT
 ```js
 function quizComponentGenerator(inputText,outputText){...}
 ```
+inputText is supposed to be used for inputting a sentence of the quiz as String.
+
+outputText is supposed to be used for outputting the answer you want to show. and it also needs to be String.

@@ -3,7 +3,7 @@
 
 "quizComponentGenerator" is a function of Javascript(ES6).
 
-This function generates html tags like this,
+This function returns nothing. But instead of it, it generates html tags inside of the function like this,
 
 
 ```html
